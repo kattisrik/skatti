@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { NavHashLink as NavLink } from "react-router-hash-link";
 import Fade from "react-reveal/Fade";
 import { IoMenuSharp, IoHomeSharp } from "react-icons/io5";
-import { HiDocumentText } from "react-icons/hi";
+import { BsFillGearFill, BsClockHistory, BsCodeSlash } from "react-icons/bs";
 import { MdPhone } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 import { makeStyles } from "@material-ui/core/styles";
@@ -179,10 +179,28 @@ function Navbar() {
               </NavLink>
             </Fade>
             <Fade left>
-              <NavLink to="/#resume" smooth={true} spy="true" duration={2000}>
+              <NavLink
+                to="/#experience"
+                smooth={true}
+                spy="true"
+                duration={2000}
+              >
                 <div className={classes.drawerItem}>
-                  <HiDocumentText className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Resume</span>
+                  <BsClockHistory className={classes.drawerIcon} />
+                  <span
+                    className={classes.drawerLinks}
+                    style={{ width: "70%" }}
+                  >
+                    Experiences
+                  </span>
+                </div>
+              </NavLink>
+            </Fade>
+            <Fade left>
+              <NavLink to="/#projects" smooth={true} spy="true" duration={2000}>
+                <div className={classes.drawerItem}>
+                  <BsCodeSlash className={classes.drawerIcon} />
+                  <span className={classes.drawerLinks}>Projects</span>
                 </div>
               </NavLink>
             </Fade>

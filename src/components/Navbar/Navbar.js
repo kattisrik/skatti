@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { NavHashLink as NavLink } from "react-router-hash-link";
 import Fade from "react-reveal/Fade";
 import { IoMenuSharp, IoHomeSharp } from "react-icons/io5";
-import { BsFillGearFill, BsClockHistory, BsCodeSlash } from "react-icons/bs";
+import { BsClockHistory, BsCodeSlash } from "react-icons/bs";
 import { MdPhone } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 import { makeStyles } from "@material-ui/core/styles";

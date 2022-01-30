@@ -5,6 +5,16 @@ import four from "../assets/svg/projects/wedding.svg";
 
 export const projectsData = [
   {
+    id: 0,
+    projectName: "Fandom",
+    projectDesc:
+      "A cool startup in web3 space which is still in a very initial stage.",
+    tags: ["React", "web 3.0", "Mongo DB"],
+    code: "https://github.com/Fandom-DAO/fandomdao",
+    demo: "https://fandomdao.netlify.app",
+    image: three,
+  },
+  {
     id: 1,
     projectName: "Covid-19 Vaccine Availability",
     projectDesc:

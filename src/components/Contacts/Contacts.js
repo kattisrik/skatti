@@ -132,11 +132,7 @@ function Contacts() {
 
     if (name && email && message) {
       if (isEmail(email)) {
-        const responseData = {
-          name: name,
-          email: email,
-          message: message,
-        };
+        const responseData = [[name, email, message]];
 
         axios.post(contactsData.sheetAPI, responseData).then((res) => {
           setSuccess(true);

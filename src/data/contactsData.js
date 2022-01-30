@@ -3,5 +3,6 @@ export const contactsData = {
   phone: "+91-9901016269",
   address: "Bengaluru, Karnataka, India",
 
-  sheetAPI: "",
+  sheetAPI:
+    "https://v1.nocodeapi.com/skatti/google_sheets/bGorTEFBXrTqkZKS?tabId=sheet1",
 };
